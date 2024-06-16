@@ -1,0 +1,85 @@
+
+        body{
+            background: url('Imagenes/Game Zone.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+
+        }
+        .background-blur{
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            background: inherit;
+            filter: blur(3px);
+            z-index: 1;
+        }
+        h1{
+            color:rgba(218, 223, 223, 0.993)
+        }
+
+        .container{
+            background-color: rgba(61, 62, 63, 0.274);
+            position: relative;
+            z-index: 2;
+            padding: 90px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(136, 137, 138, 0.603);
+            text-align: center;
+        }
+        
+        p{
+            font-weight: bold;
+            text-decoration: white;
+            color: white;
+        }
+
+
+        label{
+            font-weight: bold;
+            text-decoration: #f5f5f4;
+            color: #f3f3eb;
+        
+        }
+
+
+        input[type="email"]{
+            width: 90%;
+           padding: 10px;
+           border: 1px solid #eaf1f3ad;
+           border-radius: 7px;
+           font-size: 14px;
+           text-decoration-color: #f0eded;
+           background-color:rgba(141, 138, 138, 0.185);
+        }
+
+        input[type="password"]{
+            width: 90%;
+           padding: 10px;
+           border: 1px solid #eaf1f3ad;
+           border-radius: 7px;
+           font-size: 14px;
+           text-decoration-color: #f0f2f3f3;
+           background-color:rgba(141, 138, 138, 0.185);
+        }
+
+        .btn-custom {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+            color: white;
+        }
